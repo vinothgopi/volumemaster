@@ -4,6 +4,14 @@ A macOS menu bar app for managing multiple audio outputs. Merge two devices into
 
 Requires macOS 13.0+
 
+## Why
+
+My desk setup has two external monitors with built-in speakers, an external webcam, and an external mic. Every time I docked my Mac, it picked the wrong devices — wrong speaker, wrong mic, wrong camera. I got tired of manually switching everything.
+
+Then there was the dual-monitor audio problem. I have two displays side by side, both with speakers, but macOS only sends audio to one at a time. The built-in MIDI Audio Setup lets you create an aggregate device to merge them, but the moment you do that, your keyboard volume keys stop working.
+
+VolumeMaster fixes all of this. Profiles auto-switch devices when peripherals connect. Merged output plays through both monitors with working volume keys. And since both monitors are right next to each other, I added spatial audio — the app tracks which monitor has the active window and shifts the audio toward that speaker. It's not a hard switch; it's a spectrum. If a window is slightly left of center, the left monitor plays a bit louder and the right one a bit softer. It sounds surprisingly natural.
+
 ## Features
 
 ### Multi-Output Merge
