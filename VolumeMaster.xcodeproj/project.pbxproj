@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A10000010000000000000001 /* VolumeMasterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000001 /* VolumeMasterApp.swift */; };
+		A10000010000000000000002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000002 /* AppDelegate.swift */; };
+		A10000010000000000000003 /* CoreAudioHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000003 /* CoreAudioHelpers.swift */; };
+		A10000010000000000000004 /* AudioDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000004 /* AudioDevice.swift */; };
+		A10000010000000000000005 /* AudioDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000005 /* AudioDeviceManager.swift */; };
+		A10000010000000000000006 /* AggregateDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000006 /* AggregateDeviceManager.swift */; };
+		A10000010000000000000007 /* DeviceMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000007 /* DeviceMonitor.swift */; };
+		A10000010000000000000008 /* DeviceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000008 /* DeviceProfile.swift */; };
+		A10000010000000000000009 /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000009 /* AppSettings.swift */; };
+		A10000010000000000000010 /* MenuBarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000010 /* MenuBarViewModel.swift */; };
+		A10000010000000000000011 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000011 /* SettingsViewModel.swift */; };
+		A10000010000000000000012 /* MenuBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000012 /* MenuBarView.swift */; };
+		A10000010000000000000013 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000013 /* SettingsView.swift */; };
+		A10000010000000000000014 /* MergeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000014 /* MergeSettingsView.swift */; };
+		A10000010000000000000015 /* ProfileSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000015 /* ProfileSettingsView.swift */; };
+		A10000010000000000000017 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000017 /* Assets.xcassets */; };
+		A10000010000000000000018 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A20000010000000000000018 /* CoreAudio.framework */; };
+		A10000010000000000000019 /* VideoDeviceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000021 /* VideoDeviceManager.swift */; };
+		A10000010000000000000020 /* MediaKeyInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000022 /* MediaKeyInterceptor.swift */; };
+		A10000010000000000000023 /* WindowTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000023 /* WindowTracker.swift */; };
+		A10000010000000000000024 /* SpatialAudioController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000024 /* SpatialAudioController.swift */; };
+		A10000010000000000000025 /* VolumeHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A20000010000000000000025 /* VolumeHUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A20000010000000000000001 /* VolumeMasterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeMasterApp.swift; sourceTree = "<group>"; };
+		A20000010000000000000002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A20000010000000000000003 /* CoreAudioHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreAudioHelpers.swift; sourceTree = "<group>"; };
+		A20000010000000000000004 /* AudioDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDevice.swift; sourceTree = "<group>"; };
+		A20000010000000000000005 /* AudioDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioDeviceManager.swift; sourceTree = "<group>"; };
+		A20000010000000000000006 /* AggregateDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AggregateDeviceManager.swift; sourceTree = "<group>"; };
+		A20000010000000000000007 /* DeviceMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMonitor.swift; sourceTree = "<group>"; };
+		A20000010000000000000008 /* DeviceProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceProfile.swift; sourceTree = "<group>"; };
+		A20000010000000000000009 /* AppSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		A20000010000000000000010 /* MenuBarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000011 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		A20000010000000000000012 /* MenuBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarView.swift; sourceTree = "<group>"; };
+		A20000010000000000000013 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000014 /* MergeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeSettingsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000015 /* ProfileSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSettingsView.swift; sourceTree = "<group>"; };
+		A20000010000000000000017 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A20000010000000000000018 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		A20000010000000000000019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A20000010000000000000020 /* VolumeMaster.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VolumeMaster.entitlements; sourceTree = "<group>"; };
+		A20000010000000000000021 /* VideoDeviceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoDeviceManager.swift; sourceTree = "<group>"; };
+		A20000010000000000000022 /* MediaKeyInterceptor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaKeyInterceptor.swift; sourceTree = "<group>"; };
+		A20000010000000000000023 /* WindowTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowTracker.swift; sourceTree = "<group>"; };
+		A20000010000000000000024 /* SpatialAudioController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpatialAudioController.swift; sourceTree = "<group>"; };
+		A20000010000000000000025 /* VolumeHUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VolumeHUD.swift; sourceTree = "<group>"; };
+		A30000010000000000000001 /* VolumeMaster.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VolumeMaster.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A40000010000000000000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000018 /* CoreAudio.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A50000010000000000000001 = {
+			isa = PBXGroup;
+			children = (
+				A50000010000000000000002 /* VolumeMaster */,
+				A50000010000000000000007 /* Products */,
+				A50000010000000000000008 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A50000010000000000000002 /* VolumeMaster */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000019 /* Info.plist */,
+				A20000010000000000000020 /* VolumeMaster.entitlements */,
+				A20000010000000000000017 /* Assets.xcassets */,
+				A50000010000000000000003 /* App */,
+				A50000010000000000000004 /* Audio */,
+				A50000010000000000000005 /* Models */,
+				A50000010000000000000009 /* ViewModels */,
+				A50000010000000000000006 /* Views */,
+			);
+			path = VolumeMaster;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000003 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000001 /* VolumeMasterApp.swift */,
+				A20000010000000000000002 /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000004 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000003 /* CoreAudioHelpers.swift */,
+				A20000010000000000000004 /* AudioDevice.swift */,
+				A20000010000000000000005 /* AudioDeviceManager.swift */,
+				A20000010000000000000006 /* AggregateDeviceManager.swift */,
+				A20000010000000000000007 /* DeviceMonitor.swift */,
+				A20000010000000000000021 /* VideoDeviceManager.swift */,
+				A20000010000000000000022 /* MediaKeyInterceptor.swift */,
+				A20000010000000000000023 /* WindowTracker.swift */,
+				A20000010000000000000024 /* SpatialAudioController.swift */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000005 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000008 /* DeviceProfile.swift */,
+				A20000010000000000000009 /* AppSettings.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000012 /* MenuBarView.swift */,
+				A20000010000000000000013 /* SettingsView.swift */,
+				A20000010000000000000014 /* MergeSettingsView.swift */,
+				A20000010000000000000015 /* ProfileSettingsView.swift */,
+				A20000010000000000000025 /* VolumeHUD.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000007 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30000010000000000000001 /* VolumeMaster.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000008 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000018 /* CoreAudio.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50000010000000000000009 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A20000010000000000000010 /* MenuBarViewModel.swift */,
+				A20000010000000000000011 /* SettingsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A60000010000000000000001 /* VolumeMaster */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A80000010000000000000003 /* Build configuration list for PBXNativeTarget "VolumeMaster" */;
+			buildPhases = (
+				A70000010000000000000001 /* Sources */,
+				A40000010000000000000001 /* Frameworks */,
+				A70000010000000000000002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VolumeMaster;
+			productName = VolumeMaster;
+			productReference = A30000010000000000000001 /* VolumeMaster.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A90000010000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A60000010000000000000001 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = A80000010000000000000001 /* Build configuration list for PBXProject "VolumeMaster" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50000010000000000000001;
+			productRefGroup = A50000010000000000000007 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A60000010000000000000001 /* VolumeMaster */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A70000010000000000000002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000017 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A70000010000000000000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A10000010000000000000001 /* VolumeMasterApp.swift in Sources */,
+				A10000010000000000000002 /* AppDelegate.swift in Sources */,
+				A10000010000000000000003 /* CoreAudioHelpers.swift in Sources */,
+				A10000010000000000000004 /* AudioDevice.swift in Sources */,
+				A10000010000000000000005 /* AudioDeviceManager.swift in Sources */,
+				A10000010000000000000006 /* AggregateDeviceManager.swift in Sources */,
+				A10000010000000000000007 /* DeviceMonitor.swift in Sources */,
+				A10000010000000000000008 /* DeviceProfile.swift in Sources */,
+				A10000010000000000000009 /* AppSettings.swift in Sources */,
+				A10000010000000000000010 /* MenuBarViewModel.swift in Sources */,
+				A10000010000000000000011 /* SettingsViewModel.swift in Sources */,
+				A10000010000000000000012 /* MenuBarView.swift in Sources */,
+				A10000010000000000000013 /* SettingsView.swift in Sources */,
+				A10000010000000000000014 /* MergeSettingsView.swift in Sources */,
+				A10000010000000000000015 /* ProfileSettingsView.swift in Sources */,
+				A10000010000000000000019 /* VideoDeviceManager.swift in Sources */,
+				A10000010000000000000020 /* MediaKeyInterceptor.swift in Sources */,
+				A10000010000000000000023 /* WindowTracker.swift in Sources */,
+				A10000010000000000000024 /* SpatialAudioController.swift in Sources */,
+				A10000010000000000000025 /* VolumeHUD.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA0000010000000000000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AA0000010000000000000002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AA0000010000000000000003 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VolumeMaster/VolumeMaster.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VT66WP74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VolumeMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VolumeMaster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volumemaster.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		AA0000010000000000000004 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = VolumeMaster/VolumeMaster.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 69VT66WP74;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VolumeMaster/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = VolumeMaster;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = "";
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volumemaster.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A80000010000000000000001 /* Build configuration list for PBXProject "VolumeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000010000000000000001 /* Debug */,
+				AA0000010000000000000002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A80000010000000000000003 /* Build configuration list for PBXNativeTarget "VolumeMaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0000010000000000000003 /* Debug */,
+				AA0000010000000000000004 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A90000010000000000000001 /* Project object */;
+}
